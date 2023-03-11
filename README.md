@@ -1,28 +1,37 @@
-# MyFirstAppAngular
+# My Finance
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+Esta é uma aplicação para controle de finanças construída com Angular, onde é possível cadastrar finanças e deletar.
 
-## Development server
+## Rodando localmente
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Clone o projeto
 
-## Code scaffolding
+```bash
+  git clone git@github.com:CarlosX26/MyFinance-app.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Entre no diretório do projeto
 
-## Build
+```bash
+  cd MyFinance-app
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Instale as dependências
 
-## Running unit tests
+```bash
+  npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Inicie o servidor
 
-## Running end-to-end tests
+```bash
+  npm run start
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Stack utilizada
 
-## Further help
+**Front-end:** Angular, CSS, TypeScript
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# MyFinance-app
+## Demonstração
+
+Link da aplicação: https://my-financex.netlify.app/
