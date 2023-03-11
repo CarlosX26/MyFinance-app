@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="container">
+  <main>
+    <div class="box-insert-values">
+      <app-form-finance></app-form-finance>
+      <app-sum-total></app-sum-total>
+    </div>
+    <div class="box-finances">
+      <app-list-finances></app-list-finances>
+      <p *ngIf="listFinances.length === 0">Não finanças cadastradas :/</p>
+    </div>
+  </main>
+</div>

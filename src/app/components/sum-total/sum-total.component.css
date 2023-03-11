@@ -1,0 +1,22 @@
+.box-sumTotal {
+  border: 2px solid var(--color-grey-2);
+  border-radius: var(--radius-1);
+  padding: 16px 8px;
+  background-color: var(--color-white);
+}
+
+.box-sumTotal > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-sumTotal > div > p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.box-sumTotal > div > p ~ p {
+  color: var(--color-primary);
+}
+.box-sumTotal > small {
+  font-size: 12px;
+}

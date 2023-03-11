@@ -1,0 +1,33 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.container > main {
+  display: flex;
+  gap: 32px;
+  padding-top: 32px;
+}
+
+.box-insert-values {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.box-finances {
+  width: 70%;
+}
+
+@media (width < 870px) {
+  .container > main {
+    flex-direction: column;
+  }
+  .box-insert-values {
+    width: 100%;
+  }
+  .box-finances {
+    width: 100%;
+  }
+}

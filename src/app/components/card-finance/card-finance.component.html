@@ -1,0 +1,10 @@
+<li>
+  <div>
+    <p>{{ finance.description }}</p>
+    <div>
+      <p>{{ finance.value | currency }}</p>
+      <button (click)="removeFinance()">excluir</button>
+    </div>
+  </div>
+  <small>{{ finance.type }}</small>
+</li>

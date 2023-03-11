@@ -1,0 +1,7 @@
+<h3>Resumo financeiro</h3>
+<ul>
+  <app-card-finance
+    *ngFor="let finance of listFinances; let i = index"
+    [finance]="finance"
+  ></app-card-finance>
+</ul>
