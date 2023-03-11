@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  background-color: var(--color-grey-4);
+  height: 64px;
+}
+
+header > div {
+  display: flex;
+  max-width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div > h2 {
+  color: var(--color-primary);
+  font-size: 24px;
+}
