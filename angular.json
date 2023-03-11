@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "myFirstAppAngular": {
+    "myFinance": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -16,7 +16,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-first-app-angular",
+            "outputPath": "dist/my-finance",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -56,10 +56,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "myFirstAppAngular:build:production"
+              "browserTarget": "myFinance:build:production"
             },
             "development": {
-              "browserTarget": "myFirstAppAngular:build:development"
+              "browserTarget": "myFinance:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -67,7 +67,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "myFirstAppAngular:build"
+            "browserTarget": "myFinance:build"
           }
         },
         "test": {
